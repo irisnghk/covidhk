@@ -24,7 +24,7 @@ plt.xticks(rotation=45)
 
 
 
-str1 = 'One East Coast'
+str1 = 'Taikoo Shing'
 df1['b2']= df1['Building name'].str.upper()
 n_cases = df1['b2'].str.count(str1.upper()).sum().astype(str)
 
